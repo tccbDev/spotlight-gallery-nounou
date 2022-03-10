@@ -1,0 +1,26 @@
+.grid{
+    padding: 16px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    grid-gap: 16px;
+
+}
+
+.grid img{
+    display: block;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.grid img{
+ border-radius: 3%;
+    transition: transform .2s;
+}
+
+.grid img:hover{
+    -webkit-box-shadow: 2px 4px 19px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 4px 19px -1px rgba(0,0,0,0.75);
+    box-shadow: 2px 4px 19px -1px rgba(0,0,0,0.75);
+    transform: scale(1.05);
+}
